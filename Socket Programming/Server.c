@@ -5,7 +5,7 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-
+#include <errno.h>
 int main(int argc , char *argv[])
 {
     //create a socket
